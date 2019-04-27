@@ -1,0 +1,2404 @@
+What is Java ?
+			- Java is a Object Oriented Programming Language. 
+	
+
+	Non-Structured Programming Methodology : 
+	
+
+				- In this methodology code will be written in a single file. 			- every statement will be assigned with label or number.
+				- control flow of a program will be maintained using label / 				number. 
+				- ‘cobal’, ‘pascal’,’basic’ languages are examples for Non-Structured Programming language.
+	 
+	limitations : 
+	
+
+				- difficult to maintain project.
+				- no security. 
+	
+
+	Structured Programming Methodology :
+	
+
+				- the code is modularised as functions. 
+				- every function represents a specific task. 
+				- ‘C’ programming is an example for Structured programming methodology. 
+				- control flow of a program will be maintained by using functions. 
+		
+	limitations : 
+	
+
+			- no data security 
+			-  the function belongs which user that clarity is missing. 
+					( we can’t represent real time entities as functions )
+	
+
+	Object Oriented Methodology :
+	
+
+				- In Object Oriented Programming methodology code will be modularised as classes. 
+				- every real time entity we will represent as a class. 
+				- class describes data and behaviour. 
+				- object contains data and behaviour. 
+				- by using OOP concepts like abstraction and encapsulation we can provide data security. 
+				- by using OOP concepts like Inheritance and Polymorphism we can provide code reusability. 
+				- OOP methodology is recommend to develop large scale / enterprise applications. 
+	
+
+	OOP Concepts : 
+	
+
+		Inheritance : 
+					- Acquiring one class properties into another class is called as Inheritance. 
+					- Code reusability is the main advantage of Inheritance.
+	
+
+		Polymorphism : 
+						- More than more form is called as Polymorphism. 
+													(or)
+						- The ability of an object will act differently in different situations. 
+						- Code reusability is the main advantage of Polymorphism. 
+	
+
+		Abstraction : 
+						- Abstraction is a process of identifying the essential things to be known and ignoring non-essential details. 
+						- data security is the main advantage of Abstraction. 
+	
+
+		Encapsulation : 
+						- wrapping the data and behaviour into a single unit is called as encapsulation. 
+										(or) 
+						- mechanism of hiding the data and provide the interface to access the data from other classes. 
+	
+
+		 Why Java : 
+	
+
+					- Open Source 
+					- Simple
+					- Platform Independent
+					- Robust 
+					- Secure
+					- Distributed 
+					- MutiThread
+					- Object Oriented Programming Language. 
+					- Portable
+					- Architectural Neutral 
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+					- Inheritance 
+					- Abstraction 
+					- Polymorphism 
+					- Encapsulation 
+	
+
+	Inheritance : 
+	
+
+					- Aquiring the properties from one class to another class is  called as Inheritance.  
+					- code reusability is the advantage of Inheritance. 
+	
+
+	Abstraction : 
+	
+
+						- Abstraction is a process of identifying the essential things to be known and ignoring non-essential details. 
+						- security is the main advantage of abstraction. 
+	
+
+	Polymorphism : 
+	
+
+						- the ability of an object will act differently in different situations.
+						- code reusability is the advantage of polymorphism. 
+	
+
+	Encapsulation : 
+	
+
+				- Encapsulation is a mechanism of hiding the data, and provide the interface to access the data from other classes.
+	 			- data security is the main advantage of Encapsulation. 
+	
+
+	
+
+	
+
+	 Java Features : 
+	
+
+					- Open Source 
+					- Simple 
+					- Platform Independent 
+					- Robust 
+					- Secure 
+					- Distributed 
+					- Multi Thread 
+					- Portable 
+					- Object Oriented 
+					- Architectural Neutral 
+	
+
+	Open Source :
+	 
+	
+
+	
+
+					- complete source code will be exposed to public, public can see the code and modify the code according to their requirement. 
+	 
+	Simple : 
+	
+
+					- Java is a super set of ‘C’ language. 
+					- the complexities in C like pointers , templates are removed 
+	in java language. 
+					- java is providing ready made libs support.
+							e.g. :   java.io , java.net, java.util, java.math ….
+					- In java memory allocation and deallocation will be performed by JVM, so developer no need to do this manually.  
+	
+
+	Platform Independent : 
+	
+
+					- with out modifying the code if the code running on multiple platforms (operating system) then it is called as platform independent. 
+					- in java, java byte code is platform independent.
+	
+
+	Robust [Strong] : 
+	
+
+	
+
+					- Java is called as robust programming language because of 2 things
+								- Memory Management 
+								- Exception Handling 
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		Memory Management : 
+						- In Java memory allocation and deallocation will be performed by JVM ( so there no change of memory leakages),
+	the unused objects will be removed from JVM by using Garbage collector. 
+						-  abnormal termination of an application is called as Exception, handling abnormal termination of an application is called as Exception Handling.
+						- java is providing a strong mechanism to handle exceptions.
+	
+
+	
+
+	
+
+	
+
+	Secured : 
+				- java is called as secured programming language because of JVM.
+				- JVM will provide the security in 3 phases. 
+												- Class Loader 
+	                                   -> will load only .class files 
+												- Byte code Verifier 
+								                   -> check whether the .class file contains a valid 
+	                                           byte code or not. 
+												- Security Manager 
+											           -> check is there any damage / harm to system, 												if not then only it will convert the java byte code 
+													into machine code.
+				- by using OOP concepts (abstraction and encapsulation ) developer can provide security.
+	
+
+	
+
+	Distributed :  
+				- if the application is running on multiple systems parlally
+	then it is called as distributed application. 
+				- in java by using RMI,EJB,CORBA and WebServices we can develop distributed applications.
+				- load balancing and high performance is the advantage of distributed applications. 
+	
+
+	Multi Threaded : 
+				-   Thread is a separate process. 
+				-   executing the multiple threads parlally is called as multi threading. 
+				
+	 Portable : 
+	
+
+					- java byte code is platform independent because of this java is called as portable ( easily we can move java application from one OS to another OS ).
+	
+
+	
+
+	
+
+	Object Oriented : 
+					- easy to develop and maintain the code. 
+					- by using abstraction and encapsulation we can provide security. 
+					- by using Inheritance and Polymorphism we can provide code reusability. 
+	
+
+	
+
+	Architectural Neutral : 
+	 
+						- in ‘C’ language the primitive data type memory size will be vary/different from platform to platform but in java primitive type memory allocation will be same in all the platforms thats why Java is called as Architectural Neutral. 
+	
+
+	
+
+	
+
+		 Java Application Types : 
+	
+
+					- JavaSE  [ Java Standard Edition ]
+					- JavaEE [ Java Enterprise Edition ]
+					- JavaME [ Java Micro Edition ] 
+	
+
+	
+
+	 
+	JavaSE : 
+	
+
+					- JavaSE is a specification given by sun micro systems. 
+					- by using JavaSE specification we can build core desktop applications [ application will execute on a single computer].
+	 				- it is not a installable software. 
+	
+
+	
+
+	JDK  :
+	
+
+	
+
+					- JDK is termed as Java development Kit. 
+					- it is one of the implementation for JavaSE specification given by Sun Micro Systems.
+					- it is a installable software. 
+					- to develop and run java applications we required JDK. 
+					- JDK is combination of  development tools , public jre [?] and source code 
+	
+
+	
+
+	
+
+	JRE : 
+	
+
+	
+
+				- JRE is termed as Java Runtime Environment. 
+				- to run java application we required some tools and libraries those tools and libraries we will get in JRE. 
+				- JVM[?] is a part of JRE. 
+	
+
+	JVM : 
+	
+
+				- JVM is termed as Java Virtual Machine. 
+				- it used to convert the java byte code into machine code.
+				- JVM will convert the java byte code into machine code in phases. 
+									- Class Loader 
+									- Memory Unit 
+									- Execution Engine 
+	
+
+	data types : 
+	
+
+				- data of a class will be describe by using data types. 
+			  - data types is used to specify max, min range of a value. 
+				- in java there are 2 types of data types. 
+							- primitive 
+							- reference 
+	
+
+	Variable : 	
+	
+
+					- name of the location where the data is stored. 
+					- there are 3 types of variables 
+								- local variable 
+								- instance variable 
+								- static variable
+	
+
+	
+
+	
+
+	How to configure  JDK path : 
+	
+
+				- copy the bin folder location in  jdk.
+	
+
+				c:\program files\Java\jdk9\bin;
+	
+
+				- right click on MyComputer >> select properties >>  select advanced system settings >> environment variables >> in system variables choose new option >> 
+	
+
+	
+
+	
+
+	
+
+	variable name   :     PATH 
+	variable value    :     c:\program files\Java\jdk9\bin;,;
+	  
+	  - after configuring the path , restart command prompt (if command prompt is already opened).
+	
+
+	
+
+	Local Variable : 
+	
+
+				- if we create a variable inside a method or constructor or block then it is called as Local variable. 
+				- local variables can be accessed with in the block ( { … }).
+				- local variables must be initialised. 
+	             byte ram ;        // declaration 
+	             ram = 8 ;        // assing a value 
+	             byte ram=8;  // initialisation  
+				- for local variables memory will be assigned in JVM stack memory Unit. 
+	
+
+	
+
+	Note : 
+	
+
+				- every method will be load into JVM for execution , by default JVM will load main( ) method into Stack for execution. 
+	
+
+	Instance Variables : 
+	
+
+				- if we create a variable out side the method / constructor / block then it is called as instance variable. 
+				- for instance variables memory will be allocate in JVM heap memory unit. 
+				- instance variables must not be initialised , if we don’t intialize the variable it will contains default value. 
+				- for instance variables memory will be allocate at the time of object creation, with the help of object reference only we can access the instance variables.  
+	
+
+	
+
+	How to Create Object : 
+	
+
+					- in java there 4 approaches to create an Object.
+													  - new operator 
+											       - Class.forName( )
+													  - Deserialization 
+													  - Cloneable 
+	
+
+	
+
+	
+
+		new operator : 
+						syntax : 
+										          new ClassName( ); 
+		
+		 How to assign reference for an object ?
+	
+
+				syntax : 
+	
+
+						ClassName   refname = new  ClassName( );
+	
+
+	static variable : 
+	
+
+					- if the variable is applied with static keyword, then it is called as static variable. 
+		
+	
+
+				syntax : 
+										   static  data_type variable_name = value ; 
+	                            
+					- for static variables memory will be allocate at the time class loading, for static variables memory will be allocate only once. 
+					- for static variables memory will be allocate in JVM - Method Area. 
+					-  to access static variables , no need to create any object and reference. 
+					- other class static variables can be accessed with class name. 
+				syntax : 
+													ClassName.variableName;
+	
+
+	- behaviour of a class will be describe using 
+										- Method 
+										- constructor 
+										- block 
+	
+
+	
+
+	Method : 
+	
+
+						- Method is a named block. 
+						- Methods is used to modularise the class. 
+						- every method represents a specific task. 
+						- there are 2 types of methods. 
+									- instance method. 
+									- static method. 
+	
+
+		instance method : 
+				 basic syntax : 
+												      return_type  method_name(parameters) 
+								                 {
+	                                      // method body
+													      return value; 
+													      }
+			- for instance methods memory will be allocate in JVM heap.
+			- to access instance methods we required object and reference. 
+			- for instance methods memory will be allocate  at the time of 
+					object creation. 
+			- every method will be load into stack for execution, after method execution it will removed from stack. 
+	
+
+	
+
+	Static Methods : 
+	
+
+					-  if we apply static keyword for a  named block inside a class then it is called as static method. 
+				
+	    syntax : 
+										static return_type method_name(parameters) 
+										 { 
+									        // method body 
+											return value; 
+											} 
+					- for static methods memory will be allocate JVM Method area.
+	
+
+					- main( ) method is also a static method, for main( ) method memory will be allocate in MethodArea and  JVM load the main( ) method from Method Area to Stack.  
+					- for static methods memory will be allocate only once that is at time class loading. 
+					- non-static variables and non-static methods can’t accessed inside static methods. 
+					- static methods and static variables are called as class level, 
+	 with out creating object and reference we can access any where in the class. 
+					- other class static variables and static methods can  be accessed with ClassName. 
+	
+
+	
+
+						ClassName.static_variable_name;
+						ClassName.method_name( );
+						
+	Contructor : 
+	
+
+				- Constructor is a special named block with class name inside a class. 
+						syntax : 
+													 ClassName(parameters) 
+													   {
+	                                      // constructor body 
+												      }
+				- constructor is a part of Object creation.
+				- by default every class will have a no argumented constructor. 
+				- for constructor memory will be allocate in JVM heap, will be load into stack for execution. 
+				- constructor is used to initialize the instance variables at the time of object creation. 
+		
+	Note : 
+	
+
+				- by default every class will have a no argumented constructor, 
+			if the constructor is not created in a class at the time of object creation it will invoke default (no argumented) constructor.  
+				- if the constructor is created in a class at the time of object creation it will invoke the constructor which we created in a class. 
+				- constructor can be argumented (or) no argumented. 
+	
+
+	Blocks : 
+	
+
+					- behaviour of a class can be represent by using blocks. 
+					- there are 2 types of blocks. 
+											- instance block 
+											- static block 
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	instance block : 
+							- a block with out name in side a class is called as instance block. 
+							- for instance block memory will be allocate at the time of object creation. 
+							- instance block will be create in the heap and will be load into stack for execution. 
+							- instance block will be invoke before constructor invocation. 
+							- instance block is used to execute the logic before constructor invocation.
+	
+
+	
+
+	syntax : 
+								       { 						                   // instance block body…
+	                        }
+						- in a single class we can create number of instance blocks. 
+	
+
+		static block : 
+	
+
+					- if we apply static keyword for a block inside a class then it is called as static block.
+	
+
+	
+
+	syntax : 
+										    static  { 
+	                                              // code to execute 
+													          }
+				- static block will be invoke before main( ) method invocation. 
+				- for static blocks memory will be allocate in MethodArea. 
+				- in a single class we can create number of static blocks.
+				- for static blocks memory will be allocate at the time of class loading.
+				- for static blocks blocks memory will be allocate only once. 
+	
+
+	Class : 
+				- In OOP methodology the code will be modularised as classes. 
+				- Every realtime entity we can represent as a class. 
+				- Class describes data and behaviour. 
+	
+
+	syntax : 
+	              access_specifier    access_modifier    class_keyword 
+	              class_name<generic_type_declaration>  
+	              extends/implements    class_name/interface_name
+	
+
+	
+
+	
+
+	
+
+	
+
+	Access Specifier : 
+				
+		public : 
+										- public is one of the access specifier which is applicable for class, inner class, method , constructor , variable and interface. 
+										- if the class / inner class/interface is applied with public we can access the class from other classes located in same  package or different package [?].
+										- if the constructor is applied with public, we can create the object for a class from any class located in the same package or different package[?]. 
+										- if the method / variable is applied with public we can access the method or variable from any class located in same package or different package[?]. 
+	
+
+	  		
+	 Package : 
+					-  collection of classes and interfaces is called as Package. 
+					- Package is used to avoid naming conflicts.
+					- In java there are 14 builtin packages are available.
+								(java.lang , java.util, java.net , java.io …..)
+					- we can create own package by using  ‘package’ keyword. 
+	 syntax : 
+											package  package_name; 
+	 
+						- in class package statement should be the first statement in a class. 
+						- use the following command to compile a class which is applied with package keyword. 
+	
+
+						javac    -d     .     ClassName.java 
+	
+
+	                       -d   ->  generate directories [folder]
+	                         .    ->   represents current folder.
+	
+
+							- use the following command  to run the java class which is applied with package. 
+	
+
+											java   package_name.ClassName						    
+	
+
+	  Identifier : 
+	
+
+				- A name in Java is called as identifier (class name, method name , variable name , package name , annotation name , interface name . etc )
+	
+
+	Java Identifier Rules : 
+	
+
+					- an identifier shouldn’t contain space. 				- shouldn’t start with number and shouldn’t contain special characters except _.
+					- an identifier shouldn’t be a keyword of Java. 
+	
+
+	Java Keywords : 
+	
+
+	
+
+	Developer Naming Conventions : 
+	
+
+					-  class name must start with capital letter, if class name is a collection of Multiple Words, every word should start with capital letter.
+	
+
+		ex : 
+								 class  Vehicle
+								 class  VehicleInsurance
+					-  method name should start with small case characters, if the method name is  a collection of multiple words first word should start small case character rest of the words should begin with capital case character. 
+	
+
+	
+
+	
+
+	     ex : 
+								 void   get( )
+	                  void   getDetails( )
+	                  void   getVechicleDetails( )
+					- variable name should contain only small case characters , if variable is having a fixed value then represent with capital case characters.
+									int age=29;
+									final int COUNTRY_CODE=91;
+						- if the variable is a collection of multiple words use ‘_’ as a separator. 
+	           e.g. :       int student_age = 24;
+	
+
+							- there no any specific rules for package but it should be meaningful format. 
+	
+
+	
+
+	
+
+	private : 
+	
+
+					- private is one of the access specifier which is applicable for Inner class, methods , variable and constructor. 
+					- if the inner class is applied with private we can access the inner class with in its main class. 
+					- if the variable / methods are applied with private we can access the variables and methods with in the class. 
+					- if the constructor is applied with private we can create object for the class with in the class, from out side the class we can’t create an Object. 
+	
+
+	
+
+	
+
+	protected : 
+	
+
+					- protected is one of the access specifier which is applicable inner class, methods , variable and constructor. 
+					- if the inner class applied with protected we can access the inner class with in package and its child class[?].
+					- if the constructor is applied with protected we can create object for the class with in the package and its child class.
+					- if the variable / method is applied with protected we can access the variable/method with in the package and its child class. 
+	
+
+	Inheritance : 
+	
+
+				- Acquiring the properties (data and behaviour) from one class to another class is called as Inheritance.
+				- In Object Oriented Programming there are 4 type of Inheritance. 
+	
+
+												- Simple Inheritance 
+												- Multiple Inheritance 
+												- Multi Level Inheritance 
+												- Hierachical Inheritance 
+				- Java will not support Multiple In  heritance because of diamond issue.
+	
+
+	
+
+				- In Java by default every class is a child of java.lang.Object class. 
+				- In Inheritance if we create an object for child class it will create an object for parent class also. 
+				- which class is giving properties to other class that class is called as parent/base class, which class is receiving properties from other class that class is called as child class. 
+				- In java ‘extends’ keyword is used to achieve Inheritance. 
+		
+	syntax : 
+									class  ClassName   extends    ClassName
+	                                (child class)                    (parent class)
+	                     {
+										……
+										}
+					- Code reusability is the main advantage of Inheritance.
+	
+
+	- Up Casting : 
+	
+
+					-   Holding the child class object into parent class reference is called as UpCasting.
+	
+
+						ParentClass  ref_name = new ChildClass( ); 
+	
+
+					- by using parent class reference we can access only parent class data and behaviour. 
+	
+
+	
+
+	Method Overriding : 
+	
+
+					- If we create a method in the child class same like how created in the parent class  is called as Method overriding. 
+					- Method Overriding concept is used to provide new implementation for a method in the child class. 
+					- The overriden ( child class method) should be less restrictive  
+	or equal than the parent class method. 
+					- Method overriding is one of the best example for dynamic Polymorphism[?].
+	
+
+	
+
+	
+
+	
+
+	    - public    [4]
+		  - private  [1]
+	    - protected [3] 
+	    - default [2]
+	
+
+	
+
+	
+
+	
+
+	Note : 
+	
+
+					- More than one form is called as Polymorphism. 
+					- In method overriding concept there  will be two methods with same name, return type and input parameters. ( one method will be located in parent class, one more method will be located in child class). 
+					- if we are accessing a overriding method JVM will get conflict
+	which class method it has to load into stack for execution. 				- JVM will decide dynamically (runtime) which method has to be load into Stack for execution based on Object creation.  
+					- thats why we called Method Overriding is a dynamic Polymorphism. 
+	
+
+					- In Method Overriding the overriden method should be less restrictive or equal. 
+					- following are the security levels of access specifiers. 
+								1.  private   ( with in the class)
+								2. default ( with in the package ) 
+								3. protected (with in class and its child class , child 
+	          class can be located in same package or different  package)
+								4. public ( with in package and other packages )
+	
+
+	
+
+	Note : 
+	
+
+					- every class in java is a child of java.lang.Object class. 
+					- if the reference is linked with an object, if we print object reference it will print the address of the object ( Object class toString( ) method will return address of the Object ). 
+					- instead of getting the address to print your message we have to override toString( ) method ( eg : String class in java). 
+					- if the reference is not linked with an object the reference default value will be ‘null’ , if we are performing operations null object reference JVM will raise NullPointerException. 
+	
+
+	
+
+	
+
+	
+
+	super : 
+	
+
+					- ’super’ is a keyword or instance variable which is used to access the immediate parent class  data(instance variables) and behaviour (instance methods). 
+					- super can’t be accessed inside static context (static method / static block). 
+					- ’super( )’ is used to send arguments from child class constructor to parent class constructor. ( Note : super( ) is not used to call parent class constructor ).
+					- ’super( )’ should be the initial statement in constructor declaration. 
+	
+
+	
+
+	
+
+	Q . Can we access data [ variable - local , instance and static ] of parent / Base class from Child/Derived class ?
+	
+
+	
+
+	 Note : 
+							- from child class we can access parent class  instance variable , local variable and static variable. 
+							- to access local variable we have to load the block into stack for execution.
+							- static variable can be access from child class   
+										 - with object reference
+										 - with out object only reference 
+										 - with out object and reference 
+							-In Inheritance when we run/execute  the class first JVM will load parent class ( allocate memory for static variables and static methods )  after that it will load child class ( allocate memory for static variables and static methods ). 
+	
+
+	Note : 
+	
+
+	
+
+					- behaviour of a class can be represent by using
+										 - method   ( instance , static )
+										 - constructor 
+										 - block ( instance , static )
+				  - from child class  we can access parent class methods 
+						(instance method / static method ). 
+					- from child class we can’t access constructor and blocks, because constructor and instance block will be created at the time of Object creation. 
+					- for static blocks memory will be allocate at the time class loading, only once memory will be allocate thats why we can’t access static blocks from child class.
+	
+
+	
+
+	
+
+	Can we override static methods ?
+	
+
+	 			No ,   static methods memory allocation is at the time class loading not at the time of object creation , there is no concept of method overriding and runtime polymorphism for static methods. 
+	
+
+	Q) can  we use super keyword inside static context (static method / static block) ?
+	
+
+	
+
+	A) No,    super keyword is used to access immediate parent class instance variables and instance methods, static methods can be accessed with out creating object and reference , there may be a chance user try to access  parent class instance variables and instance methods by using super keyword from static block if the memory is not allocated at the time for parent class instance variables and methods it will raise an exception to avoid exception java will not allow super keyword inside static block. 
+	 
+	
+
+	
+
+	this : 
+	
+
+					- this is a keyword or reference variable , which is used refer the current class. 
+					-  ‘this’ keyword is used to refer the instance variable. 
+					-  ‘this’ can be send as an argument for method or constructor. 
+					-  ‘this( )’ is used to call other constructor from a constructor. 
+					-  ‘this’ keyword will help to achieve encapsulation. 				-  ‘this’ can’t be accessed inside static context.
+	 
+	
+
+	Note : 
+	
+
+						- if local variable name and instance variable names are same to represent instance variable we use this keyword 
+	(this is one of the use case).
+	 
+	Note : 
+	
+
+					-  if any class method / constructor is taking current 
+	class object as a input instead of creating a separate object 
+	 we can use ‘this’ (this is another use case). 
+	
+
+	
+
+	 Q. Can we call same constructor using this( ) ?
+					 - No , It will become recursive constructor. 
+	
+
+	 Q. Can we use this( ) and super( ) in same constructor ?
+					- No ,  this( ) or super( ) must be the initial statement in constructor. 
+	
+
+	
+
+	 Q. What is meant by Constructor Over loading ?
+	
+
+				- If we create multiple constructors in a class with different input type or different input type order then it is called as Constructor Overloading. 
+	
+
+	eg : 					ClassName( ){   }     // no argumented constructor 
+	           void ClassName( ){   }   //  will be consider as Method.
+					 public ClassName( ){ }   // valid
+	        ClassName(int  age) {  }   // valid , argumented constructor
+				ClassName(String name) { } // valid 
+				ClassName(String name) { } // error , in- valid 
+	
+
+	
+
+	Encapsulation : 
+	
+
+					-  Wrapping the data and behaviour into a single unit is called as encapsulation.  [ worst answer ] 
+	
+
+					- Encasulation is a mechanism of hiding the data and provide the interface to access the data from other classes. 
+	
+
+	
+
+	
+
+	Method Overloading : 
+	
+
+					- If we create 2 or more methods with same name and with different different input parameters or different input parameters order then it is called as Method Overloading. 
+			eg :        return_type  sample( );
+									return_type  sample(int x);
+									return_type  sample(float x);
+									return_type  sample(String day, int date);
+									return_type  sample(int date, String day);
+	
+
+						- Method Overloading is an example for Static Polymorphism, because JVM will decide at compilation time which method has to be execute.
+	
+
+	
+
+	
+
+	
+
+	
+
+	Execution Process : 
+	
+
+					javac  -d  . Faculty.java 
+					javac  -d  . Admin.java 
+					java   nit.hyd.Admin 
+	
+
+						- we can access protected variables and methods of a class from same class and different class located in same package.
+	
+
+					javac  -d  .  Student.java 
+					java nit.vjd.Student 
+	
+
+	
+
+					- we can access protected variables and methods of a class from same class and its child class located in same package or different package ( by using child class object reference only we can access ).
+					- if the constructor is applied with protected , we can create the object for the class from other classes located in same package,  through child class object we can access the parent class constructor. 
+	
+
+	default : 
+					- default is one of the access specifier which is applicable for class, inner class, methods , variables , constructor and interface. 
+					- if we don’t apply  any access specifier then it will be consider as a default access specifier. 
+			
+			
+	
+
+	
+
+					eg :    				 class ClassName      ( default  class) 
+									
+													default class ClassName ( InValid ) 
+	
+
+					- if the class, inner class and interface  is applied with default we can access from other classes located in same package.
+					- if constructor is applied with default we can create object for the class from other classes located in same package. 
+					- if the variables or methods are applied with default we can access the variables / methods from other classes located in same package. 
+					- default is more secure than protected , because default can be accessed only with in the package  but protected can be accessed outside package also. 
+	
+
+	
+
+	
+
+	 static modifier : 
+	
+
+					- static is one of the access modifier which is appicable for inner class , methods , variables.
+					- if the inner class is applied with static , we can access the inner class with out creating object for the main class.
+						- for static variables and static methods memory will be allocate in Method Area at the time of Class loading.  
+						- static modifier is used to achieve “ singleton design pattern” 
+	
+
+	Singleton Design Pattern : 
+			
+				- A solution by the experts for common occurring problem in the development is called as design pattern. 
+				- single object should be create for a class rather than than creating a new object for every request. 
+	
+
+	Steps to create Singleton design pattern class :
+	
+
+				1. create a  private constructor in class ( for which class you want to achieve singleton ). 
+				  
+				2. create a static method in singleton class , with return type of current class. 
+	
+
+	  eg :    static InvitationCard getInstance( ) { 
+								return new InvitationCard( ); 
+								}
+	
+
+				3.  declare a static variable  for current class,  check the variable is ‘null’ or not in the static method 
+	if the variable is null then only create the object for the current class  and return the object , otherwise return the existing object. 
+	
+
+	   eg :    static InvitationCard ic ; 
+								
+							 static InvitationCard getInstance( ) { 
+									if(ic == null ) { 
+								             ic = new InvitationCard( );
+											}
+								return ic;  
+								}
+	
+
+	
+
+	 abstract : 
+					- abstract is one of the access modifier which is applicable for class , inner class and methods. 
+					- if  method doesn’t contain body/implementation that kind of methods we will declare as a abstarct method. 
+			 eg :    return_type method_name( ); 				- if any class contains at least one abstract method then the class has to be declared with abstract keyword. 
+						
+	
+
+	
+
+	 syntax : 
+									      abstract class className { 
+													   abstract return_type methodName( );
+													}
+				- a class can be declared as a abstarct class with out any abstart  methods. 
+				- for abstract classes we can’t create an object. 
+				- An abstract class can contain abstarct methods and non-abstarct methods. 
+				- we can access non-abstarct methods of abstarct class by using child class object reference. 
+				- If any class is extending abstract class then the class has to provide the implementation for all the abstarct methods otherwise declare the class as a abstract class. 
+				- by using abstarct modifier we can achieve partial abstraction[?].
+					- abstraction :  A process of identifying the essential things to be known and ignoring non-essential details is called as abstraction. 			
+	Note : 
+					- we can declare class as abstract with out any abstarct methods [why ?], we can’t create object for abstract class  (from other classes and from same class ), HttpServlet is one of the best example for abstract class with out abstract methods. 
+	
+
+	
+
+	
+
+	Interface : 
+	
+
+				-  Interface contains only abstract methods. [ upto java SE - 7 answer ] 
+				- Interface contains abstract methods , default methods and static methods. [ java SE - 8 answer ] 
+				- Interface contains abstract methods, default methods , static methods and private methods [ java SE-9]
+				- by default interface methods will be applied with public abstract. 
+				- by default interface variables will be declared with public static final. 
+				- interface will be create by using ‘interface’ keyword. 
+		syntax : 
+						           interface interface_name 
+									     { 
+									// abstract , static, default and private methods
+	                        }
+	
+
+	
+
+					- if any class is providing the implementation for interface then the class has to provide the implementation 
+	for all the abstract methods otherwise declare the class as a abstract class. 
+					- A class will provide the implementation for interface by using ‘implements’ keyword. 
+	   syntax : 
+					class className implements InterfaceName 
+							{
+							 }
+	
+
+						- A class can provide the implementation for multiple interfaces. [ In Java multiple inheritance is not possible for class but it is possible for interface ]
+						- An interface can extend another interface, then the class has to provide the implementation for interface abstract methods and parent interface abstract methods. 
+						- Interface with out any abstract methods is called as ‘Marker interface’, java.io.Serializable , java.lang.Cloneable 
+	   are the examples for Marker interface.
+							- Marker interface is used to provide the information to JVM. 
+							- Interface with only one abstract method is called as ‘functional interface’ , java.lang.Runnable , java.awt.event.ActionListener are the examples for functional interface. 
+						- If anonymous inner class is providing an implementation for functional interface that anonymous inner class we can represent with Lamda Expression 
+	     ‘( )->’     ( It is a Java - 8 feature ).
+						- for interface we can’t create an Object. 
+	
+
+						- by using interface we can achieve fully abstraction. 
+	
+
+	 Note : 
+	
+
+					- interface abstract methods will not accept private and protected specifier, by default abstract methods will be applied with public abstract. 
+					- Upcasting is applicable for interface. 
+	eg :    
+			InterfaceName ref_name = new ImplementationClass( );
+					- default constructor will not be create for interface. 
+	
+
+					- If any class is providing implementation for interface abstract methods , the overrided abstract methods should be equal (or) less retriction than the parent class absatrct methods.   ( must be applied with public specifier ).
+	
+
+	
+
+	
+
+	 Note : 
+	
+
+					-  Java will not support multiple inheritance for classes because of diamond issue. 
+					 - Java will support multiple inheritance for interface because  by default interface variables will be applied with static.
+						- If any class is providing implementation interface then the class has to provide the implementation for all the abstract methods.  ( so there is no concept of searching for a method in the parent class).
+							-  if we create an object for child class it will not create an object for parent interface.  
+	
+
+	
+
+	
+
+	Types of Classes : 
+	
+
+					- Main Class
+					- Inner Class 
+					- Local Class
+					- Anonymous Inner Class
+	
+
+	Inner Class : 
+	
+
+					- If we create  a class inside Main class that type of class is called as Inner Class.
+					- There are 2 types of Inner Class.
+									- Non-Static Inner Class
+									- Static Inner Class 
+					- Non-Static Inner Class : 
+									syntax :     class MainClassName 
+											                    { 
+									                          class InnerClassName
+												                       {
+													                     }  
+					                                    }
+									- by using main class object reference only we can access inner class. 
+					 - Static Inner Class : 
+								  syntax :     class MainClass 
+							                          {
+											                 static class InnerClassName {
+												                    }
+													                }
+								- to access static inner class we don’t required Main class object and reference , by using main class name we can access the static inner class. 
+	
+
+	 Local Class :
+	 
+	 					- if we create a class inside a block (method, constructor , instance / static block ) that type of class is called as Local class.
+						- we can access Local class only with in the block (method , constructor , block (instance / static)). 
+		
+	Note : 
+	
+
+					- Inner Class  .class file will be create in the following format. 
+	
+
+						MainClassName$InnerClassName.class
+		
+						- Local Class .class file will be create in the following format. 
+	
+
+							MainClassName$1LocalClassName.class
+	
+
+	Anonymous Inner Class : 
+						- A class with out name is called as Anonymous Inner class. 
+	
+
+	syntax : 					new ClassName|interface_name( ){  }
+	
+
+	Note :
+	
+
+				- If you want create child class for abstract class (or) interface instead of creating a separate class we can create Anonymous Inner class. 
+					- Anonymous inner class .class file will be create with the following format. 
+	
+
+						MainClassName$1.class
+	
+
+	Lamda Expression with Input & Return Type : 
+	
+
+	
+
+	final : 
+	
+
+				-  final is one of the access modifier which is applicable for class , inner class , methods and variables. 
+	
+
+					- if we apply final modifier for a class we can’t create child class for a class. 
+					- if any method is applied with final we can’t override the method. 
+					- if any variable is applied with final we can’t modify the value ,  a variable which is applied with final is called as Constant variable.
+					- abstract and final is a illegal combination. 
+	  
+	native :
+				
+		-  native is one of the access modifier which is applicable for methods. 
+		- if  method implementation is provided in other languages (mostly C/C++) that kind of methods we will declare as a native method. 
+		- native methods shouldn’t contain body. 
+	
+
+	syntax : 
+	
+
+						class ClassName 
+							{
+						native  return_type  methodName( ); 
+							} 
+		- ‘intern( )’ method of String class is an example for native method.  [ javap  java.lang.String ]
+	
+
+	transient : 
+	
+
+				- transient is one of the access modifier which is applicable for variable. 
+				- writing the object data into an output format is called as Serialization, if the variable is applied with transient that variable will not participate in Serialization.
+	
+
+		volatile : 
+	
+
+						- volatile is one of the access modifier which is applicable for variable. 					- if the variable is applied with volatile that variable value will not be maintain in cache.
+	
+
+	synchronized : 
+				
+					- synchronized is one the access modifier which is applicable only for methods. 
+						- if the method is applied with synchronised that method is called as Thread Safe. 
+						-  in multi threading , same method can be accessed by multiple threads then there may be a chance of conflicts , to avoid conflicts we will acquire lock on the process(method) by using synchronised modifier. 
+					
+	strictfp : 
+	
+
+				- strictfp is one of the access modifier which is applicable for class , inner class , method and interface. 
+				- in java floating point values are vary from platform to platform , to maintain fixed floating point values in all the platforms use strictfp modifier.
+	
+
+	Main Method Syntax : 
+	
+
+				public static void main(String[ ] args) { 
+							// method body
+				} 
+	
+
+		- main( ) method will be load by JVM , JVM is a program located in a package , to access a method from different package the method must be applied with public. 
+		- JVM wants to call main( ) method with out creating an object , thats why main( ) method is applied with static. 
+		- JVM is not returning any value by executing the main( ) method , thats why main( ) method is applied with void. 
+		- main( ) is the method name . 
+		- main(String[] args) , ’String[] args’ is called as command line arguments, which is used to take input from the user , args is a reference variable for String[ ]. 
+	
+
+	What are possibilities to change main( ) method. 
+	
+
+	 	  - following modifiers are applicable for main( ) method .
+							static final synchronized strictfp 
+	
+
+				- we can change the access specifier and modifiers order ( because as per the java there is no concept called specifier, we can give access modifiers in any order ). 
+	
+
+	final strictfp synchronized  public static
+	
+
+		- ‘args’ is reference variable for String[ ] , we can give any reference name.
+	
+
+			- ’String[]’ can be replaced with ’String…’ , (…) is called as ellipsis   it is a representation of  Var-Args (Variable arguments). 
+	
+
+		- we can apply generics for main( ) method. 
+	
+
+		
+	 Array : 
+						- Array is a collection similar data type. 
+						
+		syntax (declaration ): 
+	
+
+									data_type  ref_name[ ] ; 								        (or) 
+									data_type[ ] ref_name ;
+									         (or) 
+									data_type  [ ]ref_name;
+	 
+				syntax (initialize array ) : 
+	
+
+											ref_name = new data_type[size];
+													         (or) 
+											ref_name = {value1, value2 , value3…};
+	
+
+				- there are 2 types of Arrays , 
+								     1. single dimension Array. 
+										 2. multi dimension Array. 
+	
+
+	 syntax for Multi dimension Array : 
+	
+
+					data_type ref_name[ ] [ ] = 
+						new data_type[rows_size][colms_size];
+	
+
+		- we can store object type of data also in array. 
+		- array will provide the support to access the elements randomly. 
+		- array will be consider as a data sturcture. 
+		- the drawback of Array is we have to specify the size initially, there is no option to increase the size dynamically.
+	  	
+	
+
+	How to take input from user in java : 
+					
+				In java we can take input from the user , in 3 ways. 
+	
+
+						1. command line arguments. 
+						2. by using java.util.Scanner 
+						3. by using java.io.Console
+	
+
+	Commandline Arguments : 
+	
+
+					- main(String[ ] args) , String[ ] in main( ) method is used to take input from command line. 
+					- what ever the input user is given those values will be stored in String[ ]. 
+				
+	syntax : 
+					
+			java ClassName   input1   input2   input3 
+	
+
+						- based on the input values , size of the array of array will be assigned, if we don’t give any input size of the array will be ‘zero’.
+	
+
+	limitations of Command-line Arguments :
+	
+
+				- we can’t give space for a value, if we give space it will consider as a separate value. 
+				- the input will be consider as a String type. 
+				- no option to show a message before taking input.
+				- its difficult to remember the input parameters order.  
+		
+					above limitations are overcome in java.util.Scanner class.
+	
+
+	 syntax : 
+	
+
+			Scanner scanner =  new Scanner(System.in); 
+	scanner.nextInt( );   
+												    //  to take int type of data as a input
+	scanner.nextLine( );        // String
+	scanner.nextFloat( ); 
+	…………………………..
+	
+
+	 	Var-Args (…) : 
+	
+
+					- if any method (or) constructor is taking single dimension array as a input instead of representing as a Array we can represent with Var-args. 
+					- Var-args is a representation of single dimension array ([]).
+			- Var-args will be represent by using ellipsis (…)
+	 Eg : 
+						method | constructor(data_type[] args) 
+						method | constructor(data_type… args)
+				
+	data_type[] args = new data_type[]{value1,value2};
+	data_type… args;    // Invalid Syntax   									
+	java.lang.String : 
+			
+						-  A sequence of characters is called as String.
+						-  it is a predefined class in Java. ( it is not a datatype ).
+						-	 in java we can string in 2 ways.
+													1. String literal 
+													2. new operator
+						- String class in java is called as immutable type ( value can’t be changed , if we change the value it will create a new object).
+	
+
+	  	String literal : 
+					
+						String    cap_ts = “Hyderabad”;
+	
+
+						for the above statement , String class object will be create in Heap , reference will be create in Stack, text will be stored in String pool memory. 
+	
+
+						String cap_ts =“Hyderabad”;
+						String lar_pos_ts =“Warangal”;
+	
+
+						- if we create a String by using String literal , if will check for the value in Sting Pool , if the value is not available it will store the value in String Pool , it will create an object in Heap and reference will be create in Stack. 				- if the String value is available in String Pool , it will not store the value in String Pool it will not create separate object in Heap  but separate reference will be create in Stack, the reference will point the existing object. 
+	
+
+						String cap_ts =“Hyderabad”;
+						String lar_pos_ts =“Hyderabad”;
+	
+
+	new Operator : 
+	
+
+				String cap_ts = new String(“Hyderabad”);
+				String lar_pos_ts = new String(“Hyderabad”);
+	
+
+					if we create a String by using new operator 
+	it will check for the value in String pool if the value is not available it will store the value, if the value is already available it will not store the value , the value is available or not available it will create separate object in heap , and separate reference will be create in stack. 
+	
+
+	Note : 
+	
+
+					Why String is designed as Immutable ?
+	
+
+	- In java by using String literal multiple references can point to a single object, if we modify the string value of an object it will modify the value for all the references thats why instead of modifying the existing value it will create a new object and new value will be stored in String constant pool. 
+	
+
+	Note : 
+								- Java is not recommend to use String for performing String manipulations ( modifying existing string value ) because it will create separate object for string manipulation, Java is recommend to use StringBuffer or StringBuilder to perform string manipulations. 
+	 
+	How to create custom Immutable class : 
+	
+
+		- create a class with final modifier , so that other classes can’t inherit the class. 
+		- create the variables with final modifier.
+		- crate getter method to access the data, don’t create setter methods. 
+	
+
+	
+
+	String Buffer : 
+	
+
+				- StringBuffer is mutable class in java , which is used to hold sequence of characters.
+				syntax : 
+	
+
+	StringBuffer sb = new StringBuffer( );
+	StringBuffer sb1 = new StringBuffer(“text”);
+	StringBuffer sb2 = new StringBuffer(capacity);
+	
+
+		- StringBuffer class methods are applied with synchroized modifier thats why StringBuffer is called as ThreadSafe. 
+		- append( ) method is used to insert the characters into StringBuffer. 
+		- StringBuffer internally will maintain the data in a char[ ] , the default capacity of char[ ] is 16.
+			-  if the values range is more than the capacity it will increase the capacity by applying the following formula. 
+	
+
+			new_capacity = [old_capacity*2]+2; 
+	
+
+	
+
+	Note : 
+	
+
+					- java.lang.Object class contains equals( ) method. 
+					- String class is providing equals( ) method to compare values. 
+					- StringBuffer and StringBuilder  values can’t be compared by using equals( ) because StringBuffer and StringBuilder is not overriding equals method.
+				- to compare StringBuffer and Builder values, covert into Buffer and Builder into String format by using toString( ) method.  
+	
+
+	Exception Handling : 
+	
+
+		- Abnormal termination of an Application is called as Exception, Handling abnormal termination of an application is called as Exception Handling. 
+	
+
+					- In java there are 2 types of Exceptions. 
+								1. Checked Exception.
+								2. UnChecked Exception. 
+	
+
+	Checked Exception : 
+		
+						- Checked Exceptions will give prior intimation developer by using throws keyword. 
+						- if developer is calling a method or constructor which is declared with throws keyword, developer must handle the exception. 
+	 					- java.io.FileNotFoundException 
+						- java.lang.InterupttedExcepgtion 
+						- java.lang.CloneNotSupportedException 
+					- this type of exception is also called as CompileTime exception. 
+	
+
+	UnChecked Exception : 
+	
+
+						- UnChecked exceptions will not give any prior intimation to developer. 
+						- this type of exceptions is also Runtime exceptions.
+	
+
+		 - java.lang.ArrayIndexOutOfBoundsException
+		 - java.lang.NullPointerException
+		 - java.lang.ArithmeticException
+	
+
+	- In Java all exception classes are child of java.lang.Exception class.  
+	- We can create custom (our own ) exceptions by creating a class as a child of java.lang.Exception class. 
+	- In java , there are 2 ways to Handle the exceptions.
+	
+
+							- try-catch-finally 
+							-  throws keyword
+	
+
+	 try-catch-finally : 
+	
+
+					syntax :     
+						              method | constructor( ) {	                            statement 1; 												     statement 2;
+												   try {
+													      statement 3; // cause an exception
+												     }catch(ExceptionClass ref_name)
+								                    {
+						// logic to execute when exceptions is raised..
+									                   }
+													      finally{ 
+	// closing the connection (DB,Network,File…)
+									                    }
+													statement 4; 
+										}
+	- with out exception handling if any statement is raised an exception the remaining statements will not be execute. 
+	
+
+	- with exception handling if any segment is raised an exception that particular statement will not be execute , rest of statements  will be execute. 
+	
+
+	- if we are handling the exception by using try-catch-finally block , if the exception is raised then only catch block will be execute , if exception raised / not raised finally block will be execute. 
+	
+
+	- which statement causes an exception that statement we put inside try block. 
+	- inside catch block we can print our own exception description (or) use  printStackTrace( ) to get the builtin exception description. 
+	-finally block is mainly used for closing the connections ( db,network , file , pipe…).
+	  
+	Note : 
+	
+
+				- a single try block can be followed with multiple catch blocks. 
+				- a single try block can’t be followed with multiple finally blocks. 
+				- try block must be followed with catch (or) finally (or) both.
+					- from JavaSE - 7 version in a single  catch block we can declare multiple exceptions , but the exceptions shouldn’t have any relation, this block is also called as multi-catch block. 
+	
+
+	throw : 
+	
+
+				- throw is a keyword in java, which is used to throw exceptions explicitly. 
+				- by using throw keyword we can throw checked exception and unchecked exceptions. 
+				- throw keyword is mainly used to throw custom exception. 
+	
+
+		syntax : 
+	
+
+						throw  new ExceptionName( ); 
+	
+
+	throws : 
+	
+
+					- throws is a keyword in java, which is used to declare the exception.
+					- throws keyword is used to provide an information to developer the method or constructor may give an exception.  
+					- by using throws keyword we can declare multiple exceptions. 
+	
+
+	syntax : 
+	
+
+	MethodName | ConstructorName( ) throws 
+													 ExceptionName1,ExceptionName2
+	{
+				
+	}
+	
+
+	
+
+	try - with - resource : 
+	
+
+				- In Java the opened connections (DB,File,Network , Pipe) must be closed after task is completed by using try-catch-finally block we have to close these connections manually , all the opened connections will be closed automatically by using try-with-resource. 
+	
+
+		syntax : 
+									try ( resource_class_name ){
+	                              // statement cause an exception
+											} catch(ExceptionName  ref_name){
+										           // exception description
+											}
+	-  we can create our own try-with-resource class 
+	by providing an implementation for 
+	java.lang.AutoCloseable interface, it is a functional interface which contains abstract method called close( ). 
+	
+
+	- to use a class in try-with-resource, class must provide the implementation for java.lang.AutoCloseable interface. 
+	
+
+	Note : 
+	
+
+					- upto Java-8 , the resource variable declaration must be inside a try-with-resource. 
+	
+
+	eg : 
+							try(FileReader reader = new FileReader()){
+								}
+	
+
+				 	- from Java-9 a resource variable declaration can be outside the try-with-resource.  
+	
+
+							FileReader reader=new FileReader( );
+							try(reader){
+								}
+	
+
+	final Vs finally Vs finalize : 
+	
+
+	
+
+	Java Input / Output Package : 
+	
+
+					- java.io package is providing essential classes and interfaces to perform io operations on 5 datasources. 
+	
+
+						- File
+						- Array
+						- String
+						- Network 
+						- Pipe 
+	
+
+	java.io.FileReader : 
+	
+
+				- FileReader class is used to get the character stream from character type of file. 
+				- read( ) method is used to get the character Stream. 
+				
+	java.io.BufferedReader : 
+	
+
+					- BufferedReader class is used to read the data line by line from a character type of file. 
+					- readLine( ) method is used to get the data from line by line. 
+					- it is a dependent class thats why directly it can’t communicate with data source , it will take independent classes support to interact with datasource. 
+	
+
+	java.io.File : 
+					- java.io.File class is used to perform file operations (eg: exists or not, length of file, folder or file , files in a folder, create a new folder, etc..). 
+					- by using this class we can’t perform I/O operations. 
+					- following are the major methods in File class. 
+			
+													- boolean exists( )
+													- boolean isDirectory( )
+											    - boolean isFile( )
+													- long length( )
+												  - boolean delete( )
+													- String[ ]   list( )
+												  - File[ ]   listFiles( )
+												  - mkDir( ) 
+	
+
+	java.io.FileWrite : 
+	
+
+					- java.io.FileWriter class is used to write the character type of data into a file. 
+					- write( ) method is used to write the data into a file. 
+					- after writing the data call flush( ) method to clear the buffer. 
+					- close( ) method is used to close the connection for a file.
+		
+		 
+	limitations of FileWriter : 
+	
+
+				- we can’t write primitive type of data into a file by using FileWriter. 
+				- new line character (\n) is not applicable in FileWriter. 
+	
+
+	java.io.FileInputStream & 
+												java.io.FileOutputStream : 
+	
+
+	- FileInputStream class is used to read the data from non-char type of file. 
+	- FileOutputStream class is used to write the data 
+	 into non-char type of file. 
+	
+
+	java.io.Pipe : 
+	
+
+					- in java Thread is a independent process on JVM to perform a specific Task. 
+					- for providing the communication between two different Threads we use ‘Pipe’.
+					- following are the classes are used for Threads communication using Pipe. 
+	
+
+							- PipedReader
+							- PipedWriter
+							- PipedInputStream
+							- PipedOutputStream  
+			
+	java.io.CharArrayReader & CharArrayWriter : 
+	
+
+					- if the data is available in ‘char[ ]’ to convert the char array into reader format we use CharArrayReader. 
+					- CharArrayWriter class is used to write the same data into multiple times. 
+	
+
+					- write( ) method is used to write the data into CharArrayWriter. 
+				  - writeTo( ) method is used to write the same content into multiple times. 
+	  
+	Serialization : 
+	
+
+					- In java scope of the Object is with in JVM, we can’t access the object outside the JVM.
+					- to access the object data outside the JVM we will write the object data into an output (file,n/w,pipe)  format  this process is called Serialization. 
+					- creating an Object from output format is called as Deserialization. 
+					- java.io.ObjectOutputStream class is used to perform Serialization. 
+					- ObjectOutputStream class writeObject( ) method is used to perform Serialization.
+					- 	java.io.ObjectInputStream class is used to perform Deserialization. 
+					-  ObjectInputStream class readObject( ) method is used to perform deserialisation. 
+					- which class object you want to perform serialisation that class has to provide the implementation for java.io.Serilizable interface. 
+					- it is a marker interface , it is used to provide the information to JVM the object will be serialize. 
+					-  if the parent class is providing the implementation for Serialisable interface automatically child class also will become as a Serialisable class. 
+					- if the Serialisable class is having an aggregation (holding other class object ) the aggregation class also has to provide the implementation for Serialisable interface. 
+					- if the variable is applied with transient modifier that variable will not be participate in Serialization. 
+	
+
+	
+
+	java.io.PrintStream : 
+	
+
+					- java.io.PrintStream class is used write the data into different sources (file , pipe, console ….). 
+					- PrintStream class print( ) / println( ) methods is used to write the data into Stream. 
+					-  PrintStream class internally will call flush( ) method and close( ) method , no need call flush( )  
+	and close( ) methods. 
+	 				- PrintStream class is mainly used to mintain log files. 
+					- in System.out.println( ) statment , out is a static reference for PrintStream class, println( ) is a method of PrintStream class. 
+	
+
+	String Reader : 
+				
+		- StringReader class is used to get the character stream from String. 
+	
+
+		- read( ) method is used to get the character stream from String. 
+	 
+		StringWriter : 
+	
+
+				- StringWriter class is used to write the sequence characters into StringBuffer.
+				- write( ) method is used to  write the data into StringWritter. 
+	
+
+	Generics (<>)  :
+	
+
+					- Generics is used to provide compile-time  type safety and which is used to resolve type casting issues. 
+					- Generics is applicable for Class and Methods. 
+				 	- Generics will be represent with the following characters. 				
+										T   -    Type 
+						        E   -    Element 
+										N  -    Number 
+										K  -    Key 
+									  V  -    Value 
+	
+
+	 [ we will discuss generics after understanding compile-time type safety and type casting ] 
+	
+
+	Type Casting : 
+	
+
+						- converting one type of into another type is called as type casting. 
+						- In java  there are 4 types of Type-Casting. 
+												
+											- primitive - primitive 
+											- String - primitive 
+											- primitive - String 
+											- Object - Object 												         - UpCasting 
+											             - Downcasting
+	
+
+	primitive - primitive : 
+	
+
+				-  in java there are 2 types of primitive - primitive type conversions . 
+								- implicit 
+							  - explicit 
+		  
+	  Final Conclusion : 
+	
+
+	Integer - Integer conversion  >> size is concern 
+	Float - Float >> size is concern 
+	Integer - Float >>  implicit 
+	Float - Integer >>  explicit 
+	Integer - Character >> explicit 
+	Character - Integer >> size is concern 
+	Float - Character >> explicit 
+	Character - Float  >> size is concern 
+	Type casting is not applicable for boolean and void type. 
+	
+
+	primitive - String : 
+	
+
+					- String.valueOf(primitive_type) method is used to convert the primitive type of value into String type. 
+					- it is a static method. 
+	 				- void type can’t be convert into String type.
+	
+
+	String - Primitive    | Object - Primitive : 
+	
+
+					- Wrapper classes[?] are used to convert String type of data into Primitive type.
+					-	 following are the wrapper classes for primitive data type. 
+	
+
+				data_type              wrapper class
+	 		     int 					                     Integer 
+					 short		                       Short 
+			     byte                            Byte
+	         long                            Long 
+					 float                           Float 
+	         double                       Double 
+	         boolean                     Boolean 
+	         char                            Character
+	                              
+		why Wrapper Classes : 
+									- In Java few concepts like collection will accept only object type of data.
+									-  wrapper are used to convert primitive type of data into Object type (Boxing), Object type of into primitive type(UnBoxing). 
+									- from Java - 5 version a new concept is called Auto Boxing ( primitive - Object )  and Auto UnBoxing. 
+	
+
+				- Wrapper classes parseX( ) methods is used to convert the String type of into primitive type. 
+	
+
+	eg : 
+								String day = “19”;
+								int  x = Integer.parseInt(day); 
+								String rumale = “true”;
+				boolean  y = Boolean.parseBoolean(rumale);
+	
+
+	
+
+	Object - Object Type Casting : 
+	
+
+					- In java there are 2 types of Object - Object type casting. 
+	
+
+									- Upcasting 
+									- Downcasting 
+	
+
+	Upcasting : 
+	
+
+					holding the sub-class object into parent class reference is called as Upcasting. 
+	
+
+					ParentClass  p = new ChildClass( ); 
+	
+
+	Downcasting : 
+	
+
+					converting the parent class reference into child is called as down casting.
+	
+
+	ParentClass  p = new ChildClass( ); // Upcasting
+	ChildClass c = p;  // error.  
+	ChildClass c =(ChildClass)p;   // Downcasting
+	
+
+				- downcasting is applicable only if the parent class reference is holding child class object (into which you are converting). 
+	
+
+	
+
+	instanceof : 
+	
+
+				- instanceof is a keyword in java which is used to identify the object belongs to which class.
+	
+
+					eg :   Vehicle v = new Bus( ); 
+	
+
+										boolean status = v instanceof Bus; 
+	
+
+	java.util.Collection : 
+	
+
+					- Collections framework is providing essential classes and interface to maintain the data with in the application. 
+						- Array’s  also used to maintain the data with the application but the prob with array is we have to specify the size initially. 
+						- set of classes and interfaces is called as Framework , framework will reduce the developer work. 
+						- following are the major collection interfaces. 
+													- List 
+													- Set 
+											    - Queue
+											    - Map  
+						- List,Set,Queue  interfaces are child of java.util.Collection interface.  	
+	java.util.List : 
+	
+
+					- java.util.List is one of the collection interface which will maintain the data in a insertion order, List will allow duplicates and null object references. 
+					- java.util.ArrayList , java.util.LinkedList , java.util.Vector and java.util.Stack are the implementation classes for List intefrace. 
+					- add(E) method is used to insert the data.
+					- get(position) method is used to read the data. 
+	
+
+	
+
+	java.util.ArrayList : 
+	
+
+						- java.util.ArrayList is one of the implementation class List interface.
+						- internal data structure of ArrayList is resizable array. 
+						-	ArrayList will create a resizable array with default capacity of 10, if the values range exceeds the capacity it will increase the capacity by applying the following formula. 
+	
+
+		new_capacity = [old_capacity * 3 / 2 ] + 1;
+	
+
+	Cursors in Collection : 
+	
+
+					- for loop 
+					- for each loop 
+					- Iterator 
+					- ListIterator 
+					- Enumeration
+	
+
+	limitations of ArrayList : 
+	
+
+					- ArrayList is recommend for data insertion and data retrieve.
+					- ArrayList is not recommend for data manipulations ( inserting an element in the middle of an array , removing an element in the middle of an array ) because if we manipulate the data internally ArrayList will shift the elements position. 
+					- for data manipulations java is recommend to use LinkedList. 
+	
+
+	LinkedList : 
+	
+
+				- java.util.LinkedList is one of the implementation class for List interface. 
+				- LinkedList internal data structure is Doubly linked list. 
+				- LinkedList is an implementation class for two interfaces  1. java.util.List , 2 . java.util.Deque 
+	
+
+					- LinkedList will maintain the insertion order. 
+					- LinkedList will allow the duplicates and null object references. 
+	
+
+	java.util.Vector : 
+	
+
+					- java.util.Vector is one of the implementation class for List interface. 
+					- internal data structure of Vector is resizable array with the default capacity of 10. 
+					- if the values range exceeds the capacity it will double the capacity. 
+							new_capacity = [old_capacity * 2];
+					- Vector class methods are applied with synchronized modifier  thats why Vector is called as ThreadSafe. 
+					- Vector is also called as Legacy Collection because Vector calls is introduced from Jdk 1.2 , Collections framework is introduced from Jdk 5. 
+						- Vector is providing an interface called Enumeration for reading the elements from Vector. 
+	  
+	
+
+	Stack : 
+	
+
+					- java.util.Stack is one of the implementation class for List interface. 
+					- it is a child of java.util.Vector class. 
+					- it is used to maintain the data in LIFO [ Last In First Out Order ].
+					- following are the major method in Stack. 
+									- push( )  // insert an element 
+									- pop( )  
+									- peek( )
+				
+	java.util.Set : 
+	
+
+					- java.util.Set is one of the collection interface.
+					- Set will not maintain the insertion order. 
+					- Set will not allow duplicate elements.
+					- Set will accept the null object references. 
+					- Set internal data structure is Map ( key , value pair ). 
+					- the value what we inserted will be consider as a key for Map, value will be PRESENT (dummy value to associate with an object). 
+					- HashSet and LinkedHashSet are the implementation classes for Set interface. 
+					- Set interface is having 2 child interfaces 
+									- SortedSet 
+									- NavigableSet 
+					- TreeSet is the implementation class for above 2 interfaces. 
+	
+
+	java.util.Queue : 
+		
+				- Queue is one of the collection interface which is used to maintain the data in a FIFO [ First In First Out] Order. 			- PriorityQueue is one of the implementation for Queue interface.
+	 			- PriorityQueue will not maintain the data in FIFO order. 
+				- Deque is the child of Queue interface.
+				- LinkedList is the implementation class for Deque interface.
+				- following are the major methods of Queue interface. 
+													offer(E);   // insert the element 
+													peek( );  // read the first element 
+													poll( ); // read & remove first element 
+	  
+	java.util.Map : 
+	
+
+				- Map is one of the collection interface which is used to maintain the data in a key, value pair. 
+				- It is not a child of Collection interface. 
+	    		- HashMap and LinkedMap are the implementation classes for Map interface. 
+				- Internal data structure of HashMap is Hashtable. 
+				- SortedMap and NavigableMap are the child interfaces of Map interface. 
+				- TreeMap is the implementation class for SortedMap and NavigableMap. 
+				- Map will allow duplicate values, but will not accept duplicate keys. 
+				- Map will only one ’null’ references as a key, 
+	but we can insert multiple null references as values. 
+	
+
+	
+
+	Note : 
+	
+
+					- Internal data structure of HashMap is Hashtable, it uses key hashcode value as a key.
+								map.put(“ap”,”can”);
+					- Hashtable will not allow the null references 
+	as a key and value. 
+	 				- Hashtable will be considered as one of the 
+		implementation class for Map interafce. 
+	
+
+	Class.forName( )  : 
+	
+
+					- Class.forName( ) is one of the approach to create an Object. 
+					- at compilation time if we know for which class we have to create an object use ‘new’ operator. 
+					- to create an object dynamically use Class.forName( ). 
+					- return type of Class.forName( ) is java.lang.Class, this statement is used to load the class into JVM.
+					- by calling newInstance( ) method we will get the object for the specified class.  
+	
+
+	syntax : 
+				Class c = Class.forName(“class_name”);
+				Object o = c.newInstance( ); 
+	
+
+	Cloneable : 
+	
+
+					- by using Cloneable we can get the copy of an existing object. 
+					- which class object you want to make cloneable that class has to provide the implementation for java.lang.Cloneable interface. 
+					- by calling clone( ) method of Object class we can get the copy of an existing object. 
+					
+	
+
+	 Thread : 
+	
+
+					- Thread is light weight process on JVM to perform a specific Task. 
+					- by default in Java, every main( ) method will run on a Thread called ‘MainThread’, JVM will create the main Thread.
+					- A program in execution is called as ‘process’, Thread is a part of process. 
+					- Single Process can contain multiple threads. 
+					- In java there are 2 approaches to create Thread.
+									- by extending Thread class. 
+									- by providing implementation for Runnable interface.
+						- executing multiple threads paralally in a single process is called Multi Threading.
+						- we can provide Thread - Thread communication by using wait( ), notify( ) , notifyAll( ) methods of Object class.   
+					- in both approaches  ( extends Thread, implements Runnable interface ) we have to override run( ) method. 
+					- run( ) method will be called by calling start( ) method. 
+					- explicitly we can call the run(  ) method , but it will act as a method not as a Thread. 
+	  
+	Note : 
+					- to create a Thread, if the class is a child of some other class use implements Runnable interface to create a Thread. 
+					-  if the class is not a child of some other class use extends Thread to create a Thread. 
+	
+
+	- use the following code to start a Thread , if the class is providing implementation for Runnable interface. 
+	
+
+	Thread t = new Thread(new ThreadClassName( ));
+
+
+
+class ThreadTest 
+	{
+		public static void main(String[] args) 
+		{
+			MyThread mt = new MyThread( );
+			mt.start( ); 
+			for(int i=0;i<100;i++){
+		System.out.println(i);
+		try{
+			Thread.sleep(100);
+		}catch(Exception e){
+			e.printStackTrace( );
+	}
+			}
+	
+
+		}
+	}
+	
+
+	
+
+	
+
+	
+
+	class MyThread extends Thread 
+	{
+		public void run( )
+		{
+				for(int i=900;i<1000;i++){
+	System.out.println(i);
+	try{
+	Thread.sleep(100);
+	}catch(Exception e){
+			e.printStackTrace( );
+	}
+			}
+		}
+	}
+
+	 t.start( ); 
+	
+
+	synchronized modifier  :
+					- synchronized is one of the access modifier which is applicable only for method.
+					- if two or more threads are accessing the same resource(object) there may be a chance of conflicts, to avoid conflicts we will acquire a lock on the object by using synchronized modifier. 
+						- if any method is applied with synchronized modifier only one thread only can access the method , if other thread tries to access the method it will be in a waiting state.  
+	
+
+		- by synchronized modifier we may get dead lock situation. 
+	
+
+	Deadlock : 	 Two threads are waiting for each other forever that situation is called as Deadlock.
+
+
+
+
+// Creating a Thread by Implementing Runnable Interface 
+	
+
+	class RunnableTest 
+	{
+		public static void main(String[] args) 
+		{
+			MyThread mt = new MyThread( ); 
+			Thread t = new Thread(mt);
+			t.start(); 
+			for(int i=0;i<100;i++)
+			{
+	System.out.println(i);
+	try{
+		Thread.sleep(100);
+	}catch(Exception ie){
+				ie.printStackTrace( ); 
+	}
+			}
+	
+
+		}
+	}
+	
+
+	
+
+	class MyThread implements Runnable 
+	{
+		public void run( )
+		{
+			for(int i=900;i<1000;i++)
+			{
+	System.out.println(i);
+	try{
+	Thread.sleep(100);
+	}catch(Exception ie){
+			ie.printStackTrace( ); 
+	}
+			}
+		}
+	}
+	
+
+	// Synchronized Modifier
+	
+
+	
+
+	class Bus 
+	{
+		 void  bookTicket(String name)
+		{
+	System.out.println("**Welcome 2 TSRTC**"+name);
+			synchronized(this){
+			for(int i=0;i<100;i++)
+			{
+	System.out.println("Booking Ticker for :"+name);
+			try{
+			Thread.sleep(100); 
+			}catch(Exception ie){
+					ie.printStackTrace( ); 
+			}
+			}
+			}
+		}
+	}
+	
+
+	
+
+	
+
+	class AbhiBus extends Thread 
+	{
+		Bus b; 
+		String name; 
+		AbhiBus(String name,Bus b) 
+		{
+			this.b = b;
+			this.name = name; 
+		}
+	public 	void run( ){
+				b.bookTicket(name); 
+		}
+	}
+	
+
+	
+
+	class Redbus extends Thread 
+	{
+		Bus b; 
+		String name; 
+		Redbus(String name,Bus b) 
+		{
+			this.b = b;
+			this.name = name; 
+		}
+	public 	void run( ){
+				b.bookTicket(name); 
+		}
+	}
+	
+
+	
+
+	class Person  
+	{
+		public static void main(String[] args) 
+		{
+			Bus b = new Bus( ); 
+			AbhiBus ab = new AbhiBus("Mahesh",b);
+			ab.start( );
+			Redbus rb = new Redbus("Manoz",b);
+			rb.start( );
+		}
+	}
+	
+
+	// Dead Lock Program 
+	
+
+	
+
+	class A
+	{
+		synchronized void start(B b){
+		System.out.println("A class start( ) method");
+				try{
+				Thread.sleep(5000);
+				}catch(Exception e){
+					e.printStackTrace( );
+				}
+				b.stop( );
+		}
+		synchronized void stop( )
+		{
+	System.out.println("A class stop( ) method");
+		
+		}
+	}
+	
+
+	
+
+	
+
+	class B
+	{
+	synchronized	void start(A a){
+		System.out.println("B class start( ) method");
+				try{
+				Thread.sleep(5000);
+				}catch(Exception e){
+					e.printStackTrace( );
+				}
+				a.stop( );
+		}
+	synchronized	void stop( )
+		{
+	System.out.println("B class stop( ) method");
+		
+		}
+	}
+	
+
+	
+
+	
+
+	class DeadLockTest 
+	{
+		public static void main(String[] args) 
+		{
+			A a = new A( );
+			B b = new B( );
+				Thread t1 = new Thread( ()->{
+						a.start(b);
+				});
+				Thread t2 = new Thread( ()->{
+						b.start(a);
+				});
+			t1.start( );
+			t2.start( );
+		}
+	}
+ 
+ 
+ 
+ 
+Write Preview
+ 
+
